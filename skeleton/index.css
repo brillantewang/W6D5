@@ -1,0 +1,70 @@
+html, body, div, li, ul, article {
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.clock{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.clock-div{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(212, 172, 60, 0.993);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.root{
+    display: flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs-ul{
+    display: flex;
+    list-style: none;
+    border: 1px solid red;
+    margin-top: 20px;
+    background: grey;
+}
+
+.tabs-ul li{
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: rgb(41, 255, 41);
+    padding: 5px 10px;
+}
+
+.article{
+    background: rgb(216, 126, 238);
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+
+}
+
+.tabs-div{
+    width: 250px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
