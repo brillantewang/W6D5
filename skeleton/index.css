@@ -49,6 +49,10 @@ body {
     padding: 5px 10px;
 }
 
+.tabs-ul li:hover{
+    background: darkred;
+}
+
 .article{
     background: rgb(216, 126, 238);
     justify-content: center;
